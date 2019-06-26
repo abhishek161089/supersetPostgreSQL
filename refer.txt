@@ -1,0 +1,37 @@
+# Daily Logs
+
+24th June 
+-> Not supported in Windows or limited support for Windows OS.
+-> Installation for Superset and Related Admin User-Creation
+  Id:abhishek161089@gmail.com pwd:abhikruti1
+ -> USER Created with First Name:Abhi Pandya Last Name: Pandya Username:abhishek
+
+->Installation for PostgreSQL 
+ $ sudo -i -u postgres
+ $ createuser user-ubuntu -P --interactive -->Creating Superuser for PostgreSQL and create Database
+ ->createdb testpython
+ ctrl+D or '\q' to exit from postgres
+
+
+-> Created charts based on the data from csv.
+-> Need to Edit the columns with the groupable, filterable, min,max,sum etc property.
+-> Upon creating charts patch this chart to dashboards.
+-> how to assign users to see the dashboard that is created?
+-> Set the rules for dashboards for particular user?
+-> How much refresh time would be required?
+
+-> After installing the postgresql we able to install psycopg2 using pip
+
+
+25th June
+-> Installation for VMware into system with superset git -master branch copied
+-> csv to postgresql creation using python script using Own repositories
+-> Created views using the csv
+
+26th Jan
+-> Get the Backup from the ec2 machine of 1.6 GB for cchs.bak and superset.bak (### pgsql and csv files)
+$ scp -i <path for the keyfile> <username>@<machine_name/IP>:<file to be copied> <localpath for the file>
+$ ssh -i <path for the keyfile> <username>@<machine_name/IP> # For accessing the EC2 machine
+-> Password for postgres is also set with pwd:wasd1234 (not sudoer)
+
+-> unable to import from .bak files as Permission Denied.
