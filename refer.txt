@@ -39,6 +39,9 @@ $ ssh -i <path for the keyfile> <username>@<machine_name/IP> # For accessing the
 27th June
 -> Downloaded files into local files.
 - also setting .bak file to 777 access to user-ubuntu
+$chmod a+x Documents
+$chmod a+r Documents/Bkp01dPg.sql
+$sudo chown <username> Documents/Bkp01dPg.sql
 -> Need to create database with 
 $ createdb restored
 $ psql restored -f <filename>.bak
